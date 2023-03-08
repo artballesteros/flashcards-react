@@ -10,7 +10,7 @@ const Header = () => {
                 <img src={reactLogo} className="logo react" alt="React logo" />
             </a>
             <h4> 
-                These deck of cards hold questions and answers about React.js. 
+                This deck of cards holds questions about React.js and their answers. 
                 Good luck! :)
             </h4>
             <h5> Total number of cards: {cardData.length}</h5>
