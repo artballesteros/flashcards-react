@@ -14,18 +14,12 @@ const App = () => {
   const size = cardData.length;
 
   const goBack = () => {
-    let val = newIndex()
-    let finalVal = val === i ? val + 1 : val
-    finalVal = finalVal >= size ? 0 : finalVal
-    setIndex(finalVal)
-    setFlip(false)
+    setIndex(Math.max(i - 1, 0))
+    setFlip(false);
   }
 
   const goForward = () => {
-    let val = newIndex()
-    let finalVal = val === i ? val + 1 : val
-    finalVal = finalVal >= size ? 0 : finalVal
-    setIndex(finalVal)
+    setIndex(Math.min(i + 1, cardData.length - 1))
     setFlip(false)
   }
 
