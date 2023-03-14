@@ -4,9 +4,9 @@ Submitted by: **Arturo Ballesteros-Ontiveros**
 
 This web app: **Flashcards covering React.js concepts... written in React.js**
 
-Time spent: **5** hours spent in total
+Time spent: **6** hours spent in total
 
-## Required Features
+## Required Features - Part 1
 
 The following **required** functionality is completed:
 
@@ -25,6 +25,27 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented required features:
 
 <img src='https://i.imgur.com/fdNuFdK.gif' title='Video Walkthrough' width='500px' alt='Video Walkthrough' />
+
+GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
+
+## Required Features - Part 2
+
+The following **required** functionality is completed:
+
+- [x] **The user can enter their guess in a box before seeing the flipside of the card**
+- [x] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [x] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [x] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
+
+The following **optional** features are implemented:
+
+- [x] A shuffle button is used to randomize the order of the cards
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://i.imgur.com/WgOwDKH.gif' title='Video Walkthrough' width='500px' alt='Video Walkthrough' />
 
 GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
