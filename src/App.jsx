@@ -11,8 +11,6 @@ import './index.css'
 const App = () => {
   const [i, setIndex] = useState(0);
   const [flip, setFlip] = useState(false);
-  const newIndex = () => Math.floor(Math.random() * cardData.length)
-  const size = cardData.length;
 
   const goBack = () => {
     setIndex(Math.max(i - 1, 0))
@@ -24,6 +22,11 @@ const App = () => {
     setFlip(false)
   }
 
+  const shuffleCards = () => {
+    cardData.sort(() => Math.random() - 0.5);
+    alert("Cards have been shuffled");
+  }
+
   const flipCard = () => setFlip(!flip)
 
   return (
@@ -33,6 +36,7 @@ const App = () => {
       <CardGuess card={cardData[i]} flip={flip}/>
       <button onClick={goBack}>Back</button>
       <button onClick={goForward}>Forward</button>
+      <button onClick={shuffleCards}>Shuffle</button>
     </div>
   )
 }
