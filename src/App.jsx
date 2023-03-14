@@ -3,6 +3,7 @@ import React, { useState } from "react"
 import Card from "./components/Card"
 import cardData from "./data/CardData"
 import Header from './components/Header'
+import CardGuess from "./components/CardGuess"
 
 import './App.css'
 import './index.css'
@@ -29,6 +30,7 @@ const App = () => {
     <div className='App'>
       <Header />
       <Card clickHandler={flipCard} card={cardData[i]} flip={flip}/>
+      <CardGuess card={cardData[i]} flip={flip}/>
       <button onClick={goBack}>Back</button>
       <button onClick={goForward}>Forward</button>
     </div>
